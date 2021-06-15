@@ -1,9 +1,8 @@
 import vk_api
-from set import TOKEN
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 
-vk_session = vk_api.VkApi(token=TOKEN)
+vk_session = vk_api.VkApi(token="31e97c2cf580bac6ccb0ba0fe930f3373346e6560a0fe087fc3b165eea548b4444d58e4aeb586ecab0348")
 session_api = vk_session.get_api()
 longpool = VkLongPoll(vk_session)
 
