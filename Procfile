@@ -1,1 +1,1 @@
-worker: python main1.py $PORT
+worker: python main1.py 
